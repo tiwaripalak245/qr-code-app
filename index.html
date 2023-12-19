@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <nav class="navbar bg-info-subtle
+    mb-3  w-25">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 text-center w-100">QR Code Generator </span>
+        </div>
+      </nav>
+<section class="hero-container">
+
+     <h4 style="color: gray; padding-top: 15px;">Paste a url or enter text to create QR code</h4> 
+    <input type="text" placeholder="Text or URL" id="text" required>
+<button id="btn">Generate QR Code</button>
+<div class="wrapper">
+    <img src="" alt="" id="qrimage">
+
+</div>
+
+
+</section>
+
+    <script src="main.js"></script>
+</body>
+</html>
